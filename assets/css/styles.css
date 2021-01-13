@@ -1,0 +1,542 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/********* BARRA SUPERIOR ***********************************/
+
+#motoloco{
+  font-size: 21px;
+  display: inline-block;
+  color: #FFF;
+  margin-top: -2px;
+}
+
+#motoloco:hover{
+  color:#9d9d9d;
+}
+
+#navcol-1 a{
+  font-size: 16px;
+  color: #fff;
+}
+
+#navcol-1 a:hover{
+  color: #9d9d9d;
+}
+
+
+/********* JUMBOTRON ****************************************/
+
+#promo{
+  text-align:center;
+  padding:40px;
+  background-image: url("../img/fundo-principal.jpg");
+  background-size:cover;
+  margin-top:50px;
+}
+
+#promo .jumbotron{
+  border-radius:25px;
+  padding:40px;
+  max-width:800px;
+  background-color:rgba(255,255,255,0.4);
+  margin:0 auto;
+}
+
+#minilogo{
+  height:auto;
+  max-height:40px;
+}
+
+#promo .jumbotron{
+  padding:10px;
+}
+
+#promo .jumbotron p{
+  padding:0 40px;
+}
+
+#botao{
+  border-radius:6px;
+}
+
+
+/********* QUEM SOMOS ***************************************/
+
+.site-section{
+  text-align:center;
+}
+
+.site-section h1{
+  font-weight:normal;
+  font-size:48px;
+  margin-bottom:30px;
+}
+
+#quemsomos{
+  padding-top:100px;
+  padding-bottom:100px;
+  max-width:800px;
+  font-size:20px;
+}
+
+#brasao{
+  max-height:150px;
+  margin:20px 0;
+}
+
+#quemsomos p{
+  margin-top:20px;
+}
+
+#pdf-icon{
+  padding:20px;
+}
+
+
+/********* INICIATIVAS **************************************/
+
+#iniciativas{
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+.darker-section{
+  background-color:#dcdde1;
+}
+
+#iniciativas i{
+  font-size:43px;
+  color:#000;
+}
+
+#iniciativas h1{
+  padding-top:25px;
+}
+
+#iniciativas h2{
+  font-weight:normal;
+}
+
+#iniciativas .row{
+  margin-bottom:40px;
+}
+
+div .col-md-4{
+  padding-top:30px;
+  cursor:pointer;
+}
+
+.col-iniciativas{
+  min-height: 330px;
+}
+
+.col-iniciativas:hover{
+  background-color:#b7bbbe;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+#iniciativas a{
+  text-decoration:none;
+}
+
+#minilogo{
+  max-height:42px;
+  margin-right:10px;
+  margin-top:-10px;
+  display:inline-block;
+}
+
+
+/********* BANNERS ******************************************/
+
+#banners{
+  padding-top: 55px;
+  padding-bottom: 35px;
+}
+
+.backbanner {
+  background-color: #dcdde1;
+  height: 120px;
+  max-width: 500px; 
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 30px;
+}
+
+.backbanner button{
+  float: right;
+  margin: 3px;
+}
+
+.banner{
+  border: 1px solid rgba(0,0,0,0);
+}
+
+.interact{
+  margin: 0 auto;
+  width: 50px;
+}
+#patrocinadores{
+  padding-right: 0;
+}
+
+.banner-butoes{
+  padding-top: 35px;
+  padding-right: 10px;
+  width: 50%;
+  float: right;
+}
+
+.col-centered{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#copromotos{
+  padding-top: 30px; 
+  max-width: 100%;
+  min-height: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-left: 2.5%:
+}
+
+#megamotos{
+  padding-top: 30px; 
+  max-width: 100%;
+  min-height: 150px;
+  height: 150px;
+  margin-left: 2.5%: 
+}
+
+.fechar{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  right: 22px;
+}
+
+.fechar span{
+  font-size: 23px;
+}
+
+#back1, #back2{
+  display: none;
+  visibility: hidden;
+  -webkit-transition: 
+    opacity 600ms, 
+    visibility 600ms;
+  transition: 
+    opacity 600ms, 
+    visibility 600ms;
+}
+
+#front1, #front2{
+  -webkit-transition: 
+    opacity 600ms, 
+    visibility 600ms;
+  transition: 
+    opacity 600ms, 
+    visibility 600ms;
+}
+
+
+/********* DIRETORIA ****************************************/
+
+#diretoria{
+  padding-top:0px;
+  padding-bottom:40px;
+}
+
+#diretoria h1{
+  text-align:center;
+  padding:25px;
+}
+
+#diretoria img{
+  padding:20px 20px 0 20px;
+}
+
+#garve-icon{
+  float:right;
+  margin-top:-20px;
+  padding:0;
+  max-width:60px;
+}
+
+#fb-icon{
+  margin-left:15px;
+  margin-right:15px;
+  color:#5f86ad;
+  float:right;
+}
+
+#kadiado-icon{
+  font-size:18px;
+  margin-left:5px;
+}
+
+#whats-icon{
+  color:#7c964a;
+  float:right;
+}
+
+div.thumbnail{
+  border:0px;
+  min-height:410px;
+  border-radius:15px;
+}
+
+div.thumbnail:hover{
+  background-color:#dddddd;
+  transition:0.5s;
+}
+
+h1{
+  font-weight:normal;
+  font-size:48px;
+}
+
+
+/********* PARCEIROS ****************************************/
+
+#parceiros{
+  padding-top: 50px;
+}
+
+#parceiros div{
+  min-height: 240px;
+  padding: 10px;
+}
+
+#parceiros img{
+  display: block;
+  max-height: 120px;
+  margin: 20px auto;
+  transition:0.5s;
+}
+
+#parceiros img:hover{
+  max-height: 150px;
+  transition: 0.5s;
+}
+
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/********* MAPA *********************************************/
+
+#map{
+  height: 550px;
+}
+
+
+/********* RODAPÉ *******************************************/
+
+#footer{
+  padding-top:30px;
+  padding-bottom:20px;
+  margin-top:-5px;
+  background-color:#222222;
+}
+
+.social-icons i{
+  padding-top: 7px;
+}
+
+#developer{
+  font:normal 36px Cookie, cursive;
+  font-weight:normal;
+  font-size:24px;
+  text-align:center;
+  padding-top:20px;
+}
+
+.company-name{
+  margin-top:10px;
+}
+
+#footer .row{
+  max-width:1100px;
+  margin:0 auto;
+}
+
+#developer a{
+  text-decoration:none;
+  cursor:pointer;
+}
+
+#linkedinlogo:hover{
+  color:#215fdd;
+}
+
+#linkedinlogo{
+  font-size:20px;
+  color:#4883d3;
+}
+
+
+/********* MediaQuerys **************************************/
+
+/* a partir de 1200px largura */
+@media (min-width:1200px) {
+  #promo .jumbotron p{
+    padding:20px 80px;
+  }
+  #iniciativas p{
+    font-size: 18px;
+  }
+  #iniciativas .col-md-4{
+    min-height: 410px;
+  }
+}
+
+/* a partir de 1199px largura */
+@media (min-width:1199px) {
+  #promo{
+    height:450px;
+    padding-top:70px;
+  }
+  .fechar{
+    top: 30px;
+    right: 42px;
+  }
+}
+
+/* até de 1199px largura */
+@media (max-width:1199px) {
+  #promo .jumbotron p{
+    padding:20px 50px;
+  }
+}
+
+/* até de 991px largura */
+@media (max-width:991px) {
+  #navcol-1 a{
+    font-size: 14px;
+  }
+  #promo{
+    padding:20px;
+  }
+  #promo .jumbotron{
+    padding:15px;
+  }
+  div.col-md-3{
+    width:49%;
+    display:inline-block;
+  }
+  img.img-circle{
+    max-height: 200px;
+  }
+  div.col-md-4{
+    width: 49%;
+    display: inline-block;
+  }
+  .fechar{
+    top: 30px;
+    right: 115px;
+  }
+}
+
+/* até de 767px largura */
+@media (max-width:767px) {
+  #promo .jumbotron p{
+    padding:5px;
+  }
+  #diretoria h2{
+    font-size:22px;
+  }
+  div.col-md-3{
+    width:99%;
+  }
+  img.img-circle{
+    max-height: 250px;
+  }
+  #diretoria .caption{
+    padding: 10px 50px;
+  }
+  div.col-md-4{
+    width: 99%;
+    display: inline-block;
+  }
+  #footer{
+    padding:20px;
+  }
+}
+
+/* até de 440px largura */
+@media (max-width: 440px){
+  #motoloco{
+    font-size: 17px;
+  }
+  body{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  body div{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .interact{
+    margin: 0 auto;
+    width: 37px;
+    padding: 10px;
+  }
+  .interact i{
+    font-size: 12px;
+  }
+  .texto-banner{
+    font-size: 13px;
+    width: 50%;
+    padding: 10px;
+  }
+}
+#videoModal {
+  width: 830px;
+}
+
+/* Ajuste progressivo do botão fechar */
+
+@media (max-width: 770px){
+  .fechar{right: 18%;}
+}
+@media (max-width: 740px){
+  .fechar{right: 16%;}
+}
+@media (max-width: 710px){
+  .fechar{right: 15%;}
+}
+@media (max-width: 680px){
+  .fechar{right: 13.5%;}
+}
+@media (max-width: 650px){
+  .fechar{right: 12%;}
+}
+@media (max-width: 620px){
+  .fechar{right: 10%;}
+}
+@media (max-width: 590px){
+  .fechar{right: 9%;}
+}
+@media (max-width: 560px){
+  .fechar{right: 7%;}
+}
+@media (max-width: 530px){
+  .fechar{right: 6%;}
+}
+@media (max-width: 500px){
+  .fechar{right: 5%;}
+}
+@media (max-width: 767px) {
+    #videoModal {
+        width: auto;
+        margin-left: auto;
+    }
+}
